@@ -1,7 +1,5 @@
 # Neural_Network_Charity_Analysis
 
-Module 20 OSU Bootcamp
-
 ## Overview
 
     The purpose of this analysis was to develop a learning model, using pandas and tensorflow, that would correctly predict if a company that was potentially funded would be succesful in their campaign.
