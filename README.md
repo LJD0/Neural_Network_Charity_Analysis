@@ -31,7 +31,6 @@ The first model was ran and used oversampling of the minority Application types 
 
 Ultimately the model fails to meet the target accuracy of 75%. Multiple layer and node variations were attempted with the 3 layer model performing the closest to target with a 73% accuracy score.
 
-
 #### Model 2/3
 
 - 2 layers (30, and 15 nodes respectively) + 1 output layer
@@ -55,7 +54,6 @@ For the next model(s) The data was split by the Application type, the T3 types o
 
 The T3_only dataset's features were better representative of the dataset as a whole but ultimately this didnt prove helpful in predicting charity outcomes. Each model was compiled on its own data and tested against its counterpart, ie the Model trained on the T3 applicaitons was evaluated using the No_T3 testing set. In the end the model trained on No_T3 applications performed well and beat the target score with an accuracy of 78%.
 
-
 #### Model 4
 
 - 3 layers (30, 15, and 8 nodes respectively) + 1 output layer
@@ -71,7 +69,6 @@ The final model utilized undersampling of the T3 application types.
   - F1: 0.761
 
 Ultimately undersampling didn't reach the target accuracy either. With an accuracy of 71% the model underperformed every other.
-
 
 ### Summary
 
